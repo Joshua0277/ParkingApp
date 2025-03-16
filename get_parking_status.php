@@ -10,7 +10,7 @@ $database = "2025S_bergebro";
 $conn = new mysqli($host, $user, $password, $database);
 
 if ($conn->connect_error) {
-    die(json_encode(["error" => "資料庫連線失敗: " . $conn->connect_error]));
+    die(json_encode(["error" => "fail to connect to database: " . $conn->connect_error]));
 }
 
 // read ParkingLots list status

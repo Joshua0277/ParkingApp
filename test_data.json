@@ -1,0 +1,14 @@
+{
+  "parking_spots": [
+    {"id": 1, "status": "available"},
+    {"id": 2, "status": "occupied"},
+    {"id": 3, "status": "available"},
+    {"id": 4, "status": "occupied"},
+    {"id": 5, "status": "available"},
+    {"id": 6, "status": "occupied"},
+    {"id": 7, "status": "available"},
+    {"id": 8, "status": "occupied"},
+    {"id": 9, "status": "available"},
+    {"id": 10, "status": "available"}
+  ]
+}

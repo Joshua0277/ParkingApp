@@ -1,0 +1,54 @@
+{
+  "main-north": {
+    "total_spots": 10,
+    "parking_spots": [
+      {"id": 1, "status": "available", "type": "regular"},
+      {"id": 2, "status": "available", "type": "regular"},
+      {"id": 3, "status": "available", "type": "electric"},
+      {"id": 4, "status": "occupied", "type": "regular"},
+      {"id": 5, "status": "available", "type": "disabled"},
+      {"id": 6, "status": "occupied", "type": "regular"},
+      {"id": 7, "status": "available", "type": "regular"},
+      {"id": 8, "status": "occupied", "type": "electric"},
+      {"id": 9, "status": "available", "type": "regular"},
+      {"id": 10, "status": "available", "type": "regular"}
+    ]
+  },
+  "main-central": {
+    "total_spots": 5,
+    "parking_spots": [
+      {"id": 11, "status": "available", "type": "regular"},
+      {"id": 12, "status": "available", "type": "disabled"},
+      {"id": 13, "status": "occupied", "type": "regular"},
+      {"id": 14, "status": "available", "type": "electric"},
+      {"id": 15, "status": "occupied", "type": "regular"}
+    ]
+  },
+  "main-south": {
+    "total_spots": 5,
+    "parking_spots": [
+      {"id": 16, "status": "occupied", "type": "regular"},
+      {"id": 17, "status": "available", "type": "disabled"},
+      {"id": 18, "status": "available", "type": "regular"},
+      {"id": 19, "status": "occupied", "type": "electric"},
+      {"id": 20, "status": "available", "type": "regular"}
+    ]
+  },
+  "liberty": {
+    "total_spots": 3,
+    "parking_spots": [
+      {"id": 21, "status": "available", "type": "regular"},
+      {"id": 22, "status": "occupied", "type": "disabled"},
+      {"id": 23, "status": "available", "type": "electric"}
+    ]
+  },
+  "east": {
+    "total_spots": 4,
+    "parking_spots": [
+      {"id": 24, "status": "occupied", "type": "regular"},
+      {"id": 25, "status": "available", "type": "disabled"},
+      {"id": 26, "status": "available", "type": "electric"},
+      {"id": 27, "status": "occupied", "type": "regular"}
+    ]
+  }
+}

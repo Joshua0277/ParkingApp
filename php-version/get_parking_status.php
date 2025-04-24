@@ -1,6 +1,17 @@
 <?php
 header("Content-Type: application/json");
 
+// Read the JSON file
+$jsonData = file_get_contents(__DIR__ . '/test_data.json');
+$data = json_decode($jsonData, true);
+
+// Get campus parameter from request
+$campus = isset($_GET['campus']) ? $_GET['campus'] : 'main-north';
+
+// Return the data for the requested campus
+echo json_encode($data[$campus] ?? $data['main-north']);
+
+/* Database connection code (commented out for now)
 $host = "imc.kean.edu";
 $user = "bergebro";
 $password = "1181534";
@@ -34,4 +45,5 @@ echo json_encode(["parking_spots" => $parking_spots]);
 
 $stmt->close();
 $conn->close();
+*/
 ?>
